@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Étlap</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <nav id="desktop-nav" class="navbar">
+        <a href="/?day=hetfo">Hétfő</a>
+        <a href="/?day=kedd">Kedd</a>
+        <a href="/?day=szerda">Szerda</a>
+        <a href="/?day=csutortok">Csütörtök</a>
+        <a href="/?day=pentek">Péntek</a>
+        <a href="/?day=szombat">Szombat</a>
+        <a href="/?day=vasarnap">Vasárnap</a>
+    </nav>
+
+    <nav id="mobile-nav" class="navbar">
+        <div id="days">
+            <a class="active">Hetfő</a>
+            <a>Kedd</a>
+            <a>Szerda</a>
+            <a>Csütörtök</a>
+            <a>Péntek</a>
+            <a>Szombat</a>
+            <a>Vasárnap</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="ToggleHamburgerMenu()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+
+    <main>
+        {{ range .Cards }}
+        <div class="card">
+            <img src="img/{{ .Img }}" alt="{{ .Name }} kép">
+            <h1>{{ .Name }}</h1>
+            {{ range .Desc }}
+            <p>{{ . }}</p>
+            {{ end }}
+        </div>
+        {{ end }}
+    </main>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>

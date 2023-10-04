@@ -1,0 +1,58 @@
+[
+    {
+        "Name": "Hétfő",
+        "Dishes": [
+            "gulyas",
+            "halaszle",
+            "kurtoskalacs"
+        ]
+    },
+    {
+        "Name": "Kedd",
+        "Dishes": [
+            "madartej",
+            "halaszle",
+            "kurtoskalacs"
+        ]
+    },
+    {
+        "Name": "Szerda",
+        "Dishes": [
+            "gulyas",
+            "madartej",
+            "kurtoskalacs"
+        ]
+    },
+    {
+        "Name": "Csütörtök",
+        "Dishes": [
+            "gulyas",
+            "halaszle",
+            "madartej"
+        ]
+    },
+    {
+        "Name": "Péntek",
+        "Dishes": [
+            "babgulyas",
+            "halaszle",
+            "kurtoskalacs"
+        ]
+    },
+    {
+        "Name": "Sombat",
+        "Dishes": [
+            "gulyas",
+            "babgulyas",
+            "kurtoskalacs"
+        ]
+    },
+    {
+        "Name": "Vasárnap",
+        "Dishes": [
+            "gulyas",
+            "halaszle",
+            "babgulyas"
+        ]
+    }
+]
