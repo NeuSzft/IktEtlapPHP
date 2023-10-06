@@ -22,7 +22,7 @@
     },
     "halaszle_1": {
         "Name": "halászlé",
-        "Img": "Halászlé.jpg",
+        "Img": "Halaszle.jpg",
         "Desc": [
             "Igazi magyar hungarikum ételek egyike a halászlé. A Duna és Tisza-parti halászoktól eredő halászleves ami télen igen népszerű, de manapság tradicionális vendéglőkben bárkikor megtalálod, és persze othon is elkészíthető.",
             "Egy tradicionális halászlé pontyal, süllővel vagy csukával készül, és ennek is a kulcsfontosságú fűszere a piros paprika. Mint a gulyások, a halászlé is a legtökéletesebben csak bográcsban készíthető el, de fazékban is lehet kísérletezni."
@@ -77,7 +77,7 @@
     },
     "halaszle": {
         "Name": "halászlé",
-        "Img": "Halászlé.jpg",
+        "Img": "Halaszle.jpg",
         "Desc": [
             "A magyar konyha hagyományos kedvence a halászlé, mely rengeteg változatban készíthető, a receptek tájegységenként eltérők.",
             "Bármelyiket is próbáld ki, arra figyelj, hogy kiváló minőségű fűszerpaprikával dolgozz, amit lobogó vízbe keverj bele.",
@@ -86,7 +86,7 @@
     },
     "temesvari-szelet": {
         "Name": "temesvári szelet",
-        "Img": "Temesvári szelet.jpg",
+        "Img": "TemesvariSzelet.jpg",
         "Desc": [
             "A temesvári szelet a bakonyihoz hasonlóan szaftos, tejfölben gazdag fogás.",
             "Az étel szintén sertéshúsból készül, gomba helyett azonban zöld- vagy sárgabab kerül mellé.",
@@ -106,7 +106,7 @@
     },
     "hentestokany": {
         "Name": "Hentestokány",
-        "Img": "Hentestokány.jpg",
+        "Img": "Hentestokany.jpg",
         "Desc": [
             "A kisvendéglők kedvence a hentestokány, kiadós, szaftos étel, melyet rizzsel, tésztával vagy sült krumplival is kínálhatsz.",
             "A tokányételek különlegessége, hogy az alapanyagok csíkokra vágva kerülnek a fazékba.",
