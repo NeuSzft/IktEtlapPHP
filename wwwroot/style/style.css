@@ -87,8 +87,6 @@ nav a:hover {
     padding-right: 3rem;
 }
 
-#days {}
-
 .active {
     background-color: var(--main-bg);
 }

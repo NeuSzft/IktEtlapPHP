@@ -4,55 +4,55 @@
         "Dishes": [
             "gulyas",
             "halaszle",
-            "kurtoskalacs"
+            "temesvari-szelet"
         ]
     },
     {
         "Name": "Kedd",
         "Dishes": [
             "madartej",
-            "halaszle",
-            "kurtoskalacs"
+            "kurtoskalacs",
+            "rakott-burgonya"
         ]
     },
     {
         "Name": "Szerda",
         "Dishes": [
-            "gulyas",
             "madartej",
-            "kurtoskalacs"
+            "kurtoskalacs",
+            "hentestokany"
         ]
     },
     {
         "Name": "Csütörtök",
         "Dishes": [
-            "gulyas",
             "halaszle",
-            "madartej"
+            "somloi-galuska",
+            "gulyas"
         ]
     },
     {
         "Name": "Péntek",
         "Dishes": [
             "babgulyas",
-            "halaszle",
-            "kurtoskalacs"
+            "rakott-burgonya",
+            "gundel-palacsinta"
         ]
     },
     {
-        "Name": "Sombat",
+        "Name": "Szombat",
         "Dishes": [
-            "gulyas",
-            "babgulyas",
-            "kurtoskalacs"
+            "kurtoskalacs",
+            "fustolt-hussal-toltott-kaposzta",
+            "bakonyi-sertesszelet"
         ]
     },
     {
         "Name": "Vasárnap",
         "Dishes": [
-            "gulyas",
-            "halaszle",
-            "babgulyas"
+            "bakonyi-sertesszelet",
+            "babgulyas",
+            "rakott-burgonya"
         ]
     }
 ]
