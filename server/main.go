@@ -10,7 +10,7 @@ import (
 	"os"
 )
 
-const ADDRESS = "localhost:8080"
+const ADDRESS = ":8080"
 
 type Days = []struct {
 	Name   string
