@@ -43,7 +43,7 @@
         $days = json_decode(file_get_contents("menu-days.json"), true);
         $cards = json_decode(file_get_contents("menu-cards.json"), true);
 
-        $day = $days[$query['day']];
+        $day = $days[$query['day']] ?? $days['hetfo'];
 
         echo "<h1>{$day['name']}i étlap</h1>\n<div>\n";
         foreach ($day['dishes'] as $id) {
