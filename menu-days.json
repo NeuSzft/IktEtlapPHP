@@ -1,58 +1,72 @@
-[
-    {
-        "Name": "Hétfő",
-        "Dishes": [
+{
+    "hetfo": {
+        "name": "Hétfő",
+        "dishes": [
             "gulyas",
             "halaszle",
-            "temesvari-szelet"
+            "temesvari-szelet",
+            "rakott-burgonya",
+            "babgulyas"
         ]
     },
-    {
-        "Name": "Kedd",
-        "Dishes": [
+    "kedd": {
+        "name": "Kedd",
+        "dishes": [
             "madartej",
             "kurtoskalacs",
-            "rakott-burgonya"
+            "rakott-burgonya",
+            "hentestokany",
+            "gulyas",
+            "halaszle"
         ]
     },
-    {
-        "Name": "Szerda",
-        "Dishes": [
-            "madartej",
+    "szerda": {
+        "name": "Szerda",
+        "dishes": [
+            "babgulyas",
+            "rakott-burgonya",
             "kurtoskalacs",
             "hentestokany"
         ]
     },
-    {
-        "Name": "Csütörtök",
-        "Dishes": [
+    "csutortok": {
+        "name": "Csütörtök",
+        "dishes": [
             "halaszle",
             "somloi-galuska",
+            "kurtoskalacs",
+            "temesvari-szelet",
             "gulyas"
         ]
     },
-    {
-        "Name": "Péntek",
-        "Dishes": [
+    "pentek": {
+        "name": "Péntek",
+        "dishes": [
             "babgulyas",
             "rakott-burgonya",
+            "madartej",
+            "kurtoskalacs",
             "gundel-palacsinta"
         ]
     },
-    {
-        "Name": "Szombat",
-        "Dishes": [
+    "szombat": {
+        "name": "Szombat",
+        "dishes": [
             "kurtoskalacs",
+            "halaszle",
             "fustolt-hussal-toltott-kaposzta",
+            "somloi-galuska",
             "bakonyi-sertesszelet"
         ]
     },
-    {
-        "Name": "Vasárnap",
-        "Dishes": [
+    "vasarnap": {
+        "name": "Vasárnap",
+        "dishes": [
             "bakonyi-sertesszelet",
             "babgulyas",
-            "rakott-burgonya"
+            "rakott-burgonya",
+            "somloi-galuska",
+            "madartej"
         ]
     }
-]
+}
