@@ -37,11 +37,11 @@
 
     <main>
         <?php
+        include('./menu-days.php');
+        include('./menu-cards.php');
+
         $query;
         parse_str(parse_url($_SERVER['REQUEST_URI'], PHP_URL_QUERY), $query);
-
-        $days = json_decode(file_get_contents("menu-days.json"), true);
-        $cards = json_decode(file_get_contents("menu-cards.json"), true);
 
         $day = $days[$query['day']] ?? $days['hetfo'];
 
