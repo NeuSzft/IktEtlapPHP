@@ -5,11 +5,14 @@
 ## Futtatás:
 `php -S localhost:8080`
 
-## Json konfigurácsiós fájlok:
+## PHP Fájlok:
 
-### menu-days.json
+### index.php
+Az oldal felépítését határozza meg és dinamikusan jeleníti meg a kívánt ételelket a következő kettő fájlnak megfelelően.
+
+### menu-days.php
 A hét napjain elérhető ételeket határozza meg.
 
-### cards-days.json
+### cards-days.php
 A különböző ételek 'kártyáit', az az a hozzá tartozó adatokat határozza meg.\
 Ezek az étel neve, a hozzátartózó kép és a leírás sorai.
