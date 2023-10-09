@@ -43,7 +43,7 @@
         $query;
         parse_str(parse_url($_SERVER['REQUEST_URI'], PHP_URL_QUERY), $query);
 
-        $day = $days[$query['day']] ?? $days['hetfo'];
+        $day = $days[$query['day'] ?? 'hetfo'];
 
         echo "<h1>{$day['name']}i étlap</h1>\n<div>\n";
         foreach ($day['dishes'] as $id) {
