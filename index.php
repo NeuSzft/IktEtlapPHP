@@ -5,7 +5,8 @@ $path = $_SERVER['REQUEST_URI'];
 function route(string $file, string $url)
 {
     if (!include('./pages/' . $file)) {
-        echo '404 Not Found ' . $path;
+        echo "404 Not Found '$url'";
+        http_response_code(404);
     }
 }
 
