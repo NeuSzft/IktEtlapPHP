@@ -61,8 +61,6 @@ main>div a:active{
     font-size: 1.2rem;
     text-align: center;
     text-decoration: none;
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
     padding-top: 10px;
     color: var(--color);
 }
@@ -112,6 +110,9 @@ nav a:hover {
     background-color: var(--nav-bg);
     z-index: 100;
 }
+#mobile-nav a {
+    background-color: var(--nav-bg);
+}
 
 #mobile-nav .icon {
     background-image: url("../img/Hamburger_icon_white.png");
@@ -150,8 +151,10 @@ nav a:hover {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-
-.card:hover {
-    transform: translateY(-5px);
-    transition: 0.5s;
+.card{
+    transition: all .2s ease-in-out;
 }
+.card:hover{
+    transform: scale(1.01);
+}
+
