@@ -66,7 +66,7 @@ $cards = [
   ],
   'fustolt-hussal-toltott-kaposzta' =>
   [
-    'name' => 'füstölt hússal töltött káposzta',
+    'name' => 'töltött káposzta',
     'img' => 'FustoltKaposzta.jpg',
     'desc' => [
       'A töltött káposzta a magyar konyha éke. Az ízletes fogás számtalan recept szerint elkészíthető, érdemes őket felfedezni.',
