@@ -1,81 +1,81 @@
 <?php
 
-$days = array(
+$days = [
   'hetfo' =>
-  array(
+  [
     'name' => 'Hétfő',
-    'dishes' => array(
+    'dishes' => [
       'gulyas',
       'halaszle',
       'temesvari-szelet',
       'rakott-burgonya',
       'babgulyas',
-    ),
-  ),
+    ],
+  ],
   'kedd' =>
-  array(
+  [
     'name' => 'Kedd',
-    'dishes' => array(
+    'dishes' => [
       'madartej',
       'kurtoskalacs',
       'rakott-burgonya',
       'hentestokany',
       'gulyas',
       'halaszle',
-    ),
-  ),
+    ],
+  ],
   'szerda' =>
-  array(
+  [
     'name' => 'Szerda',
-    'dishes' => array(
+    'dishes' => [
       'babgulyas',
       'rakott-burgonya',
       'kurtoskalacs',
       'hentestokany',
-    ),
-  ),
+    ],
+  ],
   'csutortok' =>
-  array(
+  [
     'name' => 'Csütörtök',
-    'dishes' => array(
+    'dishes' => [
       'halaszle',
       'somloi-galuska',
       'kurtoskalacs',
       'temesvari-szelet',
       'gulyas',
-    ),
-  ),
+    ],
+  ],
   'pentek' =>
-  array(
+  [
     'name' => 'Péntek',
-    'dishes' => array(
+    'dishes' => [
       'babgulyas',
       'rakott-burgonya',
       'madartej',
       'kurtoskalacs',
       'gundel-palacsinta',
-    ),
-  ),
+    ],
+  ],
   'szombat' =>
-  array(
+  [
     'name' => 'Szombat',
-    'dishes' => array(
+    'dishes' => [
       'kurtoskalacs',
       'halaszle',
       'fustolt-hussal-toltott-kaposzta',
       'somloi-galuska',
       'bakonyi-sertesszelet',
-    ),
-  ),
+    ],
+  ],
   'vasarnap' =>
-  array(
+  [
     'name' => 'Vasárnap',
-    'dishes' => array(
+    'dishes' => [
       'bakonyi-sertesszelet',
       'babgulyas',
       'rakott-burgonya',
       'somloi-galuska',
       'madartej',
-    ),
-  ),
-);
+    ],
+  ],
+];
