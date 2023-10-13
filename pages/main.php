@@ -47,13 +47,12 @@
 
         echo "<h1>{$day['name']}i étlap</h1>\n<div>\n";
         foreach ($day['dishes'] as $id) {
-            echo "<a href=\"#\"><div class=\"card\">\n";
+            echo "<a href=\"./desc?dish=$id\">";
+            echo "<div class=\"card\">\n";
             echo "<img src=\"img/{$cards[$id]['img']}\" alt=\"{$cards[$id]['name']} kép\">\n";
             echo "<h1>{$cards[$id]['name']}</h1>\n";
-            #foreach ($cards[$id]['desc'] as $desc) {
-            #    echo "<p>{$desc}</p>\n";
-            #}
-            echo "</div></a>\n";
+            echo "</div>";
+            echo "</a>\n";
         }
         echo "</div>\n";
         ?>
