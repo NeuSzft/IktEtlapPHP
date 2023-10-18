@@ -11,7 +11,7 @@
 ### [index.php](./index.php)
 Az URL alapján eldönti mivel válaszoljon a szerver.
 
-### [main.php](./main.php)
+### [main.php](./pages/main.php)
 Az fő oldal felépítését határozza meg és dinamikusan jeleníti meg a kívánt ételelket a következő kettő fájlnak megfelelően.
 
 ### [description.php](./pages/description.php)
