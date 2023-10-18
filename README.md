@@ -20,6 +20,6 @@ Bővebb leírást ad egy adott ételről.
 ### [menu-cards.php](./data/menu-cards.php)
 A hét napjain elérhető ételeket határozza meg.
 
-### [cards-days.php](./data/cards-days.php)
+### [menu-days.php](./data/menu-days.php)
 A különböző ételek 'kártyáit', az az a hozzá tartozó adatokat határozza meg.\
 Ezek az étel neve, a hozzátartózó kép és a leírás sorai.
